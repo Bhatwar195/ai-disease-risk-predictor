@@ -1,0 +1,4 @@
+venv_ai/
+__pycache__/
+*.pkl
+.ipynb_checkpoints/
