@@ -1,0 +1,99 @@
+/* Main Container Styling */
+.stApp {
+    background-color: #F8FAFC;
+}
+
+/* Custom Cards */
+.main-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border-top: 5px solid #1E3A8A;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: 1px solid #E2E8F0;
+    margin-bottom: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Risk Level Indicators */
+.risk-high {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #F87171;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.risk-medium {
+    background-color: #FEF3C7;
+    color: #92400E;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #FBBF24;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.risk-low {
+    background-color: #D1FAE5;
+    color: #065F46;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #34D399;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Health Tips & Disclaimers */
+.health-tip {
+    background-color: #EFF6FF;
+    border-left: 5px solid #3B82F6;
+    padding: 1rem;
+    border-radius: 4px;
+    color: #1E40AF;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Form Elements Styling */
+div[data-baseweb="select"] > div {
+    border-radius: 8px;
+}
+
+input {
+    border-radius: 8px !important;
+}
+
+/* Typography Overrides */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+h4 {
+    color: #64748B;
+    text-align: center;
+    margin-top: 0;
+}
